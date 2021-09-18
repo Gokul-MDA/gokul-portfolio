@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+.lets-talk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/talk-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.talks__mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.talks__mainHeading > h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 42px;
+  color: #1300ed;
+}
+
+.talks__mainHeading > h4 {
+  margin-top: -40px;
+  color: #373d42;
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+.talks__mainHeading > h5 {
+  margin-top: -10px;
+  color: #373d42;
+  font-family: Poppins;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-text {
+  padding-top: 15px;
+}
+
+.form-text > label {
+  position: relative;
+  top: -25px;
+  left: 60px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: white;
+  color: #1300ed;
+}
+
+.form-text > input {
+  border-color: #1300ed;
+  border-radius: 5px;
+  height: 40px;
+  width: 600px;
+}
+
+.form-textArea {
+  padding-top: 15px;
+  margin-left: -25px;
+}
+
+.form-textArea > label {
+  position: relative;
+  top: -85px;
+  left: 85px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  background-color: white;
+  color: #1300ed;
+}
+
+.form-textArea > textarea {
+  border-color: #1300ed;
+  border-radius: 5px;
+  border-width: 2px;
+  height: 80px;
+  width: 600px;
+}
+
+.form-button {
+  height: 50px;
+  width: 600px;
+  background-color: #1300ed;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .lets-talk {
+    background-image: none;
+    height: 80vh;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .talks__mainHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/talk-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .talks__mainHeading > h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 22px;
+    color: #1300ed;
+  }
+
+  .talks__mainHeading > h4 {
+    margin-top: -10px;
+    color: #373d42;
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .talks__mainHeading > h5 {
+    margin-top: -10px;
+    color: #373d42;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .talk {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .form-text {
+    padding-top: 15px;
+  }
+
+  .form-text > label {
+    position: relative;
+    top: -18px;
+    left: 40px;
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 400;
+    background-color: white;
+    color: #1300ed;
+  }
+
+  .form-text > input {
+    border-color: #1300ed;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    width: 85%;
+  }
+
+  .form-textArea {
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .form-textArea > label {
+    position: relative;
+    top: 8px;
+    left: 40px;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 400;
+    background-color: white;
+    color: #1300ed;
+  }
+
+  .form-textArea > textarea {
+    margin-left: 28px;
+    border-width: 1px;
+    border-color: #1300ed;
+    border-radius: 5px;
+    height: 60px;
+    width: 85%;
+  }
+
+  .form-button {
+    height: 35px;
+    width: 85%;
+    background-color: #1300ed;
+    color: white;
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+}
