@@ -20,7 +20,7 @@ const About = (props) => {
         <
         h4 > ABOUT ME < /h4>{" "} <
         h5 >
-        I am a engineering graduate(batch 2021) specilized in Computer Science. < br / > My passion is web developing, and I have sound knowledge in ReactJs.Also I have the Front - End Web Development with React(Coursera) Certificate {
+        I am a engineering graduate(batch 2021) specilized in Computer Science. < br / > My passion is web developing, and I have sound knowledge in ReactJs.Also I have the Front - End Web Development with React(Coursera) Certificate <br />This is my Github link-  https://github.com/Gokul-MDA {
             " "
         } <
         /h5>{" "} < /
